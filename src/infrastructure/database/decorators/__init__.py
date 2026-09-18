@@ -1,0 +1,1 @@
+from src.infrastructure.database.decorators.transactional import transactional

@@ -1,0 +1,1 @@
+from src.infrastructure.messanger.rabbit_client import RabbitClient

@@ -1,0 +1,142 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+generate_password_hash.py
+# C extensions
+*.so
+*.pyd
+*.dll
+
+# Distribution / packaging
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Type checkers / linters
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environments
+.env
+.env.*
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Poetry
+poetry.lock
+
+# Pipenv
+Pipfile.lock
+
+# Hatch
+.hatch/
+
+# pyenv
+.python-version
+
+# Logs
+*.log
+logs/
+
+# Local databases
+*.sqlite3
+*.db
+
+# Secrets / credentials
+secrets.json
+credentials.json
+*.pem
+*.key
+*.crt
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# PyCharm / IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# VS Code (optional)
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Sphinx docs
+docs/_build/
+
+# mkdocs
+site/
+
+# celery
+celerybeat-schedule
+celerybeat.pid
+
+# mypy compiled cache
+.mypy_cache/
+
+# pyinstaller
+*.manifest
+*.spec
+
+# pytest debug
+pytestdebug.log
+
+# Local config overrides
+config.local.py
+settings.local.py
+
+
+.env
+.dockerignore
+/sql

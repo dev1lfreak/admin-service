@@ -1,0 +1,17 @@
+services:
+  admin:
+    container_name: admin-service
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8005:8005"
+    environment:
+      PYTHONUNBUFFERED: "1"
+      APP_MODULE: "src.main:app"
+      APP_HOST: "0.0.0.0"
+      APP_PORT: "8005"
+      APP_WORKERS: "2"
+    env_file:
+      - .env
+    restart: no
